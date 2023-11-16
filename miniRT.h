@@ -34,4 +34,6 @@ t_vec3	vec3_cross(t_vec3 a, t_vec3 b);
 double	vec3_mag(t_vec3 a);
 t_vec3 vec3_nomalize(t_vec3 a);
 
+void	draw_simple_sphere(t_world *world, t_vec3 camera, t_vec3 center, double radius);
+
 #endif
